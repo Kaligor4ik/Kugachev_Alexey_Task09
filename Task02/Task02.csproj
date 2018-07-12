@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B70DB208-FF83-4FD8-9137-A9468895D349}</ProjectGuid>
+    <ProjectGuid>{9D4C901B-E96C-4418-823E-91940004D1DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task01</RootNamespace>
-    <AssemblyName>Task01</AssemblyName>
+    <RootNamespace>Task02</RootNamespace>
+    <AssemblyName>Task02</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Office.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringComparer.cs" />
+    <Compile Include="RandomTimeUtils.cs" />
+    <Compile Include="WelcomeFormUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
